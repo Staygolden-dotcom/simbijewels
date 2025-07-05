@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simbi Jewels | Elegant Jewelry & Skincare</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Montserrat:wght@300;400;500&family=Dancing+Script:wght@500;600&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/simbi-logo.png">
+    <link rel="stylesheet" href="simbi.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <a href="#" class="logo"><span class="cursive">Simbi<span style="color: gold;">Jewels</span></span></a>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#instagram">Instagram</a></li>
+        </ul>
+        <div class="cart-icon" id="cartIcon">
+            <i class="fas fa-shopping-bag"></i>
+            <span class="cart-count" id="cartCount">0</span>
+        </div>
+        <div class="hamburger" id="hamburger">
+            <i class="fas fa-bars"></i>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <h1>Glow Up with Elegance</h1>
+        <p class="cursive">Where beauty meets sophistication</p>
+        <p>Discover our exquisite collection of jewelry and skincare products designed to enhance your natural beauty.</p>
+        <a href="#products" class="btn">Shop Now</a>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products-section">
+        <div class="section-header">
+            <h2 class="section-title1">Our Collections</h2>
+            <p>Discover our exquisite range of jewelry and skincare products</p>
+        </div>
+        
+        <div class="category-filters">
+            <button class="filter-btn active" data-category="all">All Products</button>
+            <button class="filter-btn" data-category="earrings">Earrings</button>
+            <button class="filter-btn" data-category="necklaces">Necklaces</button>
+            <button class="filter-btn" data-category="rings">Rings</button>
+            <button class="filter-btn" data-category="skincare">Skincare</button>
+        </div>
+        
+        <div class="product-grid" id="productGrid">
+            <!-- Products will be inserted here by JavaScript -->
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="about-content">
+            <div class="section-title">
+                <h2 style="margin-bottom: -5px;">About Us</h2>
+            </div>
+            <p style="margin-top: 10px;">Welcome to <span class="pulse" style="font-weight: 500; font-family: cursive;">Simbi <span style="color: rgb(174, 149, 10);">Jewels,</span></span> where we believe that true beauty comes from within but deserves to be celebrated on the outside. Our journey began with a simple mission: to create products that make you feel as beautiful as you are.</p>
+            <p>Each piece of jewelry is handcrafted with love and attention to detail, while our skincare products are formulated with natural ingredients to nourish and enhance your skin's natural glow.</p>
+            <p>We're more than just a brand - we're a community of women empowering each other to embrace their unique beauty.</p>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials" id="testimonials" style="justify-items: center;">
+        <div class="section-title">
+            <h2>What Our Customers Say</h2>
+        </div>
+        <div class="testimonial-slider">
+            <div class="testimonial-slide active">
+                <p class="testimonial-text">"I absolutely love my rose quartz necklace! It's become my everyday staple and I receive compliments on it constantly. The quality is exceptional for the price."</p>
+                <p class="testimonial-author">- Sarah J.</p>
+            </div>
+            <div class="testimonial-slide">
+                <p class="testimonial-text">"The facial serum has transformed my skin. After just two weeks of use, my complexion is brighter and more even. I can't imagine my skincare routine without it now."</p>
+                <p class="testimonial-author">- Michelle T.</p>
+            </div>
+            <div class="testimonial-slide">
+                <p class="testimonial-text">"The packaging alone is stunning, but the products inside are even better. I've purchased multiple pieces as gifts and everyone has been thrilled with them."</p>
+                <p class="testimonial-author">- Emily R.</p>
+            </div>
+            <div class="testimonial-controls">
+                <div class="testimonial-control active" data-index="0"></div>
+                <div class="testimonial-control" data-index="1"></div>
+                <div class="testimonial-control" data-index="2"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Instagram Section -->
+    <section class="instagram" id="instagram">
+        <div class="section-title">
+            <h2>Follow Us</h2>
+        </div>
+        <div class="instagram-feed">
+            <img src="images/ring.avif" alt="Instagram post" class="instagram-post">
+            <img src="images/chain.avif" alt="Instagram post" class="instagram-post">
+            <img src="images/chain2.avif" alt="Instagram post" class="instagram-post">
+            <img src="images/ring2.webp" alt="Instagram post" class="instagram-post">
+            <img src="images/ring3.webp" alt="Instagram post" class="instagram-post">
+            <img src="images/earring1.jpg" alt="Instagram post" class="instagram-post">
+            <img src="images/earring2.jpg" alt="Instagram post" class="instagram-post">
+            <img src="images/earring3.jpg" alt="Instagram post" class="instagram-post">
+            <img src="images/earring4.jpg" alt="Instagram post" class="instagram-post">
+            <img src="images/narga.jpg" alt="Instagram post" class="instagram-post">
+            <img src="images/shimmering.jpg" alt="Instagram post" class="instagram-post">
+            <img src="images/necklace2.webp" alt="Instagram post" class="instagram-post">
+        </div>
+        <p class="instagram-handle">Follow us <a href="https://instagram.com" target="_blank">@simbi_Jewels</a> for more</p>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter">
+        <div class="section-title">
+            <h2>Join Our Newsletter</h2>
+        </div>
+        <p style="margin-top: 10px;">Subscribe to receive updates, exclusive offers, and beauty tips.</p>
+        <form class="newsletter-form">
+            <input type="email" placeholder="Your email address" class="newsletter-input" required>
+            <button type="submit" class="btn btn-pink">Subscribe</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-column">
+                <h3>Simbi Jewels</h3>
+                <p>Elegant jewelry and skincare to enhance your natural beauty.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+            <div class="footer-column">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#instagram">Instagram</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Contact</h3>
+                <ul>
+                    <li><a href="mailto:hello@simbijewels.com">simbijewels@gmail.com</a></li>
+                    <li><a href="tel:+1234567890">(+234)916-5622-684</a></li>
+                    <li>simbi_jewel@instagram.com</li>
+                </ul>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2025 Simbi Jewels. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Cart Modal -->
+    <div class="overlay" id="overlay"></div>
+    <div class="cart-modal" id="cartModal">
+        <div class="cart-header">
+            <h3>Your Cart</h3>
+            <button class="close-cart" id="closeCart"><i class="fas fa-times"></i></button>
+        </div>
+        <div class="cart-items" id="cartItems">
+            <!-- Cart items will be added dynamically -->
+            <p class="empty-cart-message">Your cart is empty</p>
+        </div>
+        <div class="cart-total">
+            <span>Total:</span>
+            <span id="cartTotal">₦0</span>
+        </div>
+        <div class="cart-actions">
+            <button class="btn" id="continueShopping">Continue Shopping</button>
+            <button class="btn btn-pink" id="checkoutBtn">Checkout</button>
+        </div>
+    </div>
+
+    <!-- Newsletter Popup -->
+    <!-- <div class="newsletter-popup" id="newsletterPopup">
+        <button class="close-popup" id="closePopup"><i class="fas fa-times"></i></button>
+        <h3>Join Our Beauty Community</h3>
+        <p>Subscribe to our newsletter and receive 10% off your first order!</p>
+        <form class="newsletter-form">
+            <input type="email" placeholder="Your email address" class="newsletter-input" required>
+            <button type="submit" class="btn btn-pink">Subscribe & Save</button>
+        </form>
+    </div> -->
+<script src="simbi.js" defer></script>
+</body>
+</html>

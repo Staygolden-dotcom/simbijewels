@@ -488,6 +488,11 @@ header {
   left: 50%;
   transform: translateX(-50%);
 }
+@media(max-width: 768px) {
+  .section-title {
+    font-size: 1.3rem;
+  }
+}
 
 /* Instagram Section */
 .instagram {
